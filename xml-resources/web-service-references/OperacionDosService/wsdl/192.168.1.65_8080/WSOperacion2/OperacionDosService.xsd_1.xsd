@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws/">
+
+<xs:element name="cos_ws" type="tns:cos_ws"/>
+
+<xs:element name="cos_wsResponse" type="tns:cos_wsResponse"/>
+
+<xs:element name="division_modulo_ws" type="tns:division_modulo_ws"/>
+
+<xs:element name="division_modulo_wsResponse" type="tns:division_modulo_wsResponse"/>
+
+<xs:element name="division_ws" type="tns:division_ws"/>
+
+<xs:element name="division_wsResponse" type="tns:division_wsResponse"/>
+
+<xs:element name="multiplicacion_ws" type="tns:multiplicacion_ws"/>
+
+<xs:element name="multiplicacion_wsResponse" type="tns:multiplicacion_wsResponse"/>
+
+<xs:element name="potencia_ws" type="tns:potencia_ws"/>
+
+<xs:element name="potencia_wsResponse" type="tns:potencia_wsResponse"/>
+
+<xs:element name="raiz_cuadrada_ws" type="tns:raiz_cuadrada_ws"/>
+
+<xs:element name="raiz_cuadrada_wsResponse" type="tns:raiz_cuadrada_wsResponse"/>
+
+<xs:element name="raiz_cubica_ws" type="tns:raiz_cubica_ws"/>
+
+<xs:element name="raiz_cubica_wsResponse" type="tns:raiz_cubica_wsResponse"/>
+
+<xs:element name="resta_ws" type="tns:resta_ws"/>
+
+<xs:element name="resta_wsResponse" type="tns:resta_wsResponse"/>
+
+<xs:element name="sin_ws" type="tns:sin_ws"/>
+
+<xs:element name="sin_wsResponse" type="tns:sin_wsResponse"/>
+
+<xs:element name="suma_ws" type="tns:suma_ws"/>
+
+<xs:element name="suma_wsResponse" type="tns:suma_wsResponse"/>
+
+<xs:element name="tan_ws" type="tns:tan_ws"/>
+
+<xs:element name="tan_wsResponse" type="tns:tan_wsResponse"/>
+
+<xs:complexType name="resta_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+<xs:element name="arg1" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="resta_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="raiz_cuadrada_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="raiz_cuadrada_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tan_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tan_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cos_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cos_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="suma_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+<xs:element name="arg1" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="suma_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="division_modulo_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+<xs:element name="arg1" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="division_modulo_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="raiz_cubica_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="raiz_cubica_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="potencia_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+<xs:element name="arg1" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="potencia_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sin_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sin_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="division_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+<xs:element name="arg1" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="division_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiplicacion_ws">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+<xs:element name="arg1" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiplicacion_wsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
